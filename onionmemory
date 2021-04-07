@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+# simple way to remember/recal Tor .onion's
+# righttoprivacy@tutanota.com
+#
+# Blog: www.buymeacoffee.com/politictech/posts
+# More updates later
+#
+
+# Variables
+file='~/.profile'				# change to your profile file (ie: .bashrc or .bash_profile etc)
+# Read input
+read -p "What variable for this onion: " onName
+read -p "Onion address: " onion
+# Save to variable for profile
+echo "export $onName=$onion" >> $file
+echo "" 
+echo "$onName is set to $onion"			# report variable/value
