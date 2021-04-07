@@ -18,7 +18,7 @@ gitonion is set to dfdsfsdfsdfsdfsdxsxfxxxxxxxxx.onion
 derek@deriksbox:~ $ exit
 logout
 Connection to 192.168.1.22 closed.
-user@debian-10:~/code$ ssh dietpi@192.168.1.22
+derek@deriksbox$ ssh dietpi@192.168.1.22
 password:
 derek@deriksbox:~ $ echo $gitonion
 dfdsfsdfsdfsdfsdxsxfxxxxxxxxx.onion
