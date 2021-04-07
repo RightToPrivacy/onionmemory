@@ -11,16 +11,25 @@ Example: One of my onion's is for box I know as gitonion. I do not want to have 
 I run onionmemory command:
 
 derek@deriksbox:~ $ onionmemory
+
 What variable for this onion: gitonion
+
 Onion address: dfdsfsdfsdfsdfsdxsxfxxxxxxxxx.onion
 
 gitonion is set to dfdsfsdfsdfsdfsdxsxfxxxxxxxxx.onion
+
 derek@deriksbox:~ $ exit
+
 logout
+
 Connection to 192.168.1.22 closed.
+
 derek@deriksbox$ ssh dietpi@192.168.1.22
+
 password:
+
 derek@deriksbox:~ $ echo $gitonion
+
 dfdsfsdfsdfsdfsdxsxfxxxxxxxxx.onion
 
 Now whenever I need to use a location I know of as gitonion, I just type $gitonion.
